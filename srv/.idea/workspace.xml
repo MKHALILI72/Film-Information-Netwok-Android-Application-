@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53f31151-4110-4152-af81-e49155b6a6d3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/Base64request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/EditeUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/ForgetpassRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/GetListFilmRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/mainfilmpage/AboutKelaket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/userprofile/EditeProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/customfont/Calligraphy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/drawable/ic_add_circle_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/drawable/ic_edit_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/aboutkelaket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/editeprofile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/trailer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basefunction/getEmailPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/CommentResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/CommentResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/FilmResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/FilmResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/ListFilmResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/ListFilmResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/Server/UrlReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/Server/UrlReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/Splash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/loginpackage/ForgetPassActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/loginpackage/ForgetPassActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/loginpackage/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/loginpackage/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/loginpackage/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/loginpackage/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/mainfilmpage/MainFilmActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/mainfilmpage/MainFilmActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/mainfilmpage/MainFilmAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/mainfilmpage/MainFilmAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/mainfilmpage/MainListFilmActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/mainfilmpage/MainListFilmActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/userprofile/FavoriteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/userprofile/FavoriteFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/userprofile/UserInfoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/userprofile/UserInfoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/userprofile/userprofile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/java/com/example/mohammadkhalili/kelaket/userprofile/userprofile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/comment_filmview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/comment_filmview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/favoritefragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/favoritefragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/forgetpasswordpage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/forgetpasswordpage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/itemlistviewfrag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/itemlistviewfrag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/loginpage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/loginpage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/navheader.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/navheader.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/topsection_filmview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/topsection_filmview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/userinfofargment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/layout/userinfofargment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/menu/drawer_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/menu/drawer_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kelaket/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kelaket/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelaketfunction/sendEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/kelaketfunction/sendEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/async/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/base-64/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/base-64/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/dist/qs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-type/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/depd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/ipaddr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mssql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mssql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemailer/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/ses-transport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/ses-transport/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/stream-transport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/stream-transport/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemailer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-finished/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/codes.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/statuses/codes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/statuses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tedious/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tedious/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/lib/message-io.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/message-io.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tedious/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tedious/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/type-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unpipe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unpipe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/utf8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/utf8/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servercode.js" beforeDir="false" afterPath="$PROJECT_DIR$/servercode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servercode.js___jb_tmp___" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1825682548">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="574" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="574" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="8" />
+          <entry key="js" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="8" />
+          <entry key="JavaScript" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servercode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2767">
+              <caret line="121" column="9" selection-start-line="121" selection-end-line="121" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kelaketfunction/addComment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="19" selection-start-line="8" selection-start-column="11" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kelaketfunction/addDeleteFavorite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kelaketfunction/setRateFilm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="20" column="100" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kelaketfunction/getUserInfoById.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kelaketfunction/registerUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="23" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kelaketfunction/getUserFavoriteList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basefunction/existenceUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="19" selection-start-line="11" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basefunction/getEmailPass.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kelaketfunction/sendEmail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>// var query=&quot;select email from users where='&quot;+email+&quot;'&quot;</find>
+      <find>ali</find>
+      <find>alija</find>
+      <find>email</find>
+      <find>body</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/basefunction/connectDb.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/returnUserInfo.js" />
+        <option value="$PROJECT_DIR$/basefunction/returnUserInfo.js" />
+        <option value="$PROJECT_DIR$/basefunction/checkUserLogin.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/registerUser.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/addFavorite.js" />
+        <option value="$PROJECT_DIR$/basefunction/giveUserId.js" />
+        <option value="$PROJECT_DIR$/basefunction/existenceUser.js" />
+        <option value="$PROJECT_DIR$/basefunction/returnUserId.js" />
+        <option value="$PROJECT_DIR$/basefunction/getFilmNvote.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/Login.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/getlistcomment.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/isAddedFavorite.js" />
+        <option value="$PROJECT_DIR$/basefunction/isAddedFavorite.js" />
+        <option value="$PROJECT_DIR$/basefunction/addScore.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/setRateFilm.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/getFilmInfo.js" />
+        <option value="$PROJECT_DIR$/basefunction/isFilmScored.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/addComment.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/getListFilm.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/addDeleteFavorite.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/editeUserInfo.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/getUserFavoriteList.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/getUserInfoById.js" />
+        <option value="$PROJECT_DIR$/basefunction/Upload.js" />
+        <option value="$PROJECT_DIR$/basefunction/getEmailPass.js" />
+        <option value="$PROJECT_DIR$/kelaketfunction/sendEmail.js" />
+        <option value="$PROJECT_DIR$/servercode.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="430" />
+    <option name="y" value="270" />
+    <option name="width" value="1120" />
+    <option name="height" value="620" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSUnusedAssignment</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="srv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="srv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="srv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="srv" type="462c0819:PsiDirectoryNode" />
+              <item name="basefunction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="srv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="srv" type="462c0819:PsiDirectoryNode" />
+              <item name="kelaketfunction" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.7.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projekarshenasiarshad\srv\uploads" />
+      <recent name="F:\projekarshenasiarshad\srv\basefunction" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="servercode.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="servercode.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.servercode.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53f31151-4110-4152-af81-e49155b6a6d3" name="Default" comment="" />
+      <created>1532113902876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532113902876</updated>
+      <workItem from="1532113904219" duration="1429000" />
+      <workItem from="1532151727841" duration="18742000" />
+      <workItem from="1532238575884" duration="2662000" />
+      <workItem from="1532282473877" duration="1200000" />
+      <workItem from="1532286125415" duration="2665000" />
+      <workItem from="1532327942926" duration="15000" />
+      <workItem from="1532336848946" duration="13075000" />
+      <workItem from="1532365442305" duration="5731000" />
+      <workItem from="1532409467970" duration="3663000" />
+      <workItem from="1532425676521" duration="3888000" />
+      <workItem from="1532443164400" duration="2329000" />
+      <workItem from="1532787304634" duration="5447000" />
+      <workItem from="1532845604684" duration="12746000" />
+      <workItem from="1532860746237" duration="1623000" />
+      <workItem from="1532938256163" duration="2522000" />
+      <workItem from="1532960164187" duration="9189000" />
+      <workItem from="1533022504024" duration="3765000" />
+      <workItem from="1533110085231" duration="1737000" />
+      <workItem from="1533128128358" duration="230000" />
+      <workItem from="1533301020933" duration="2635000" />
+      <workItem from="1533369377240" duration="1141000" />
+      <workItem from="1533385612301" duration="6262000" />
+      <workItem from="1533405690029" duration="1696000" />
+      <workItem from="1533452217495" duration="830000" />
+      <workItem from="1533643139913" duration="1190000" />
+      <workItem from="1533706663292" duration="6722000" />
+      <workItem from="1533795453582" duration="599000" />
+      <workItem from="1533821961930" duration="947000" />
+      <workItem from="1533881604865" duration="2820000" />
+      <workItem from="1533905840512" duration="5421000" />
+      <workItem from="1534248815740" duration="782000" />
+      <workItem from="1534251411657" duration="3249000" />
+      <workItem from="1534260447146" duration="3094000" />
+      <workItem from="1534341861207" duration="1536000" />
+      <workItem from="1534404411089" duration="2627000" />
+      <workItem from="1534422455000" duration="1199000" />
+      <workItem from="1534662564237" duration="7303000" />
+      <workItem from="1534675253261" duration="4948000" />
+      <workItem from="1534693620871" duration="1464000" />
+      <workItem from="1534696013686" duration="297000" />
+      <workItem from="1534745331440" duration="240000" />
+      <workItem from="1534752526643" duration="4323000" />
+      <workItem from="1534777107362" duration="2806000" />
+      <workItem from="1534868028776" duration="3055000" />
+      <workItem from="1534956703903" duration="2153000" />
+      <workItem from="1535015502437" duration="1491000" />
+      <workItem from="1535696085561" duration="2000000" />
+      <workItem from="1535700169926" duration="1335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="166830000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12425645" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47517732" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/giveUserId.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/returnUserId.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/returnUserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/isAddedFavorite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="31" selection-start-line="10" selection-start-column="12" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/checkUserLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/isFilmScored.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/getFilmNvote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/addScore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/getFilmInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="10" selection-start-line="2" selection-start-column="8" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/editeUserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/getListFilm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/Upload.js" />
+    <entry file="file://$PROJECT_DIR$/uploads/undefined.jpg" />
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/make-error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.7.0/core-modules/events.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/make-middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="113" column="6" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/.jpg" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/hasssan@ali.com.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/asdsad.jpg" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.7.0/core-modules/net.js" />
+    <entry file="file://$PROJECT_DIR$/basefunction/connectDb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/ali.jpg" />
+    <entry file="file://C:/xampp/htdocs/kelaketapp/servercode.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/getlistcomment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="50" selection-start-line="35" selection-start-column="24" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/getUserInfoById.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/registerUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="23" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/getUserFavoriteList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/existenceUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="19" selection-start-line="11" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basefunction/getEmailPass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/sendEmail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/setRateFilm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="20" column="100" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servercode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2767">
+          <caret line="121" column="9" selection-start-line="121" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/addComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" selection-start-line="8" selection-start-column="11" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kelaketfunction/addDeleteFavorite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

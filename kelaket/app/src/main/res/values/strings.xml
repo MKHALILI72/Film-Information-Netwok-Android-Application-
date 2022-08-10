@@ -1,0 +1,31 @@
+<resources>
+    <string name="passwordloginmassage">رمز عبور</string>
+    <string name="app_name">kelaket</string>
+    <string name="emailloginmassage">ایمیل</string>
+    <string name="loginbutton">ورود</string>
+    <string name="signupbuttom">ثبت نام</string>
+    <string name="forgetpassword">رمز عبور خود را فراموش کرده اید؟</string>
+    <string name="signup">ثبت نام</string>
+    <string name="reapetpass">تکرار رمز عبور</string>
+   
+        <string-array name="film_genre">
+            <item></item>
+            <item>انیمیشن</item>
+            <item>اکشن</item>
+            <item>علمی/تخیلی</item>
+            <item>تاریخی</item>
+            <item>مستند</item>
+            <item>ترسناک</item>
+            <item>عاشقانه</item>
+            <item>کمدی</item>
+            <item>خانوادگی</item>
+        </string-array>
+  
+ 
+        <string-array name="film_country">
+            <item></item>
+            <item>ایرانی</item>
+            <item>خارجی</item>
+        </string-array>
+
+</resources>

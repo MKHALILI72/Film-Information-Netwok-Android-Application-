@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="حساب کاربری" />
+        <item
+            android:id="@+id/nav_edite"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="ویرایش حساب کاربری"
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="به اشتراک گذاری" />
+        <item
+            android:id="@+id/nav_aboutkelaket"
+            android:icon="@drawable/aboutme"
+            android:title="درباره کلاکت"
+            />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/logout"
+            android:title="خروج از حساب" />
+    </group>
+</menu>

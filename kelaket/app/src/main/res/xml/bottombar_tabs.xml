@@ -1,0 +1,12 @@
+<tabs>
+
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/ic_info_black_24dp"
+        title="اطلاعات حساب" />
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/ic_favorite_black_24dp"
+        title="علاقمندیها"
+        />
+</tabs>

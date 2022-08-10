@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_bar">50dp</dimen>
+    <dimen name="filmtitletextsize">20dp</dimen>
+    <dimen name="filmmaintextsize">18dp</dimen>
+    <dimen name="filmtitletextsize_l">18dp</dimen>
+</resources>

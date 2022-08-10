@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/topbackground"
+        >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:tint="#ffff"
+            android:src="@drawable/backicon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backicon"
+            tools:ignore="VectorDrawableCompat"
+            tools:layout_editor_absoluteX="10dp" />
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="اعمال تغییر"
+            android:textColor="#ffff"
+            android:textSize="17dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilepic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/avatar"
+            app:border_width="2dp"
+            app:border_color="#ffff"
+            />
+        <ImageView
+            android:id="@+id/addpic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_add_circle_black_24dp"
+            android:tint="#ff7300"
+            android:elevation="10dp"
+            app:layout_constraintRight_toRightOf="@+id/profilepic"
+            app:layout_constraintBottom_toBottomOf="@id/profilepic"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نام کاربری"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رمز عبور جدید"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:inputType=""
+            />
+        <EditText
+            android:gravity="right"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تکرار رمز عبور جدید"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:gravity="right"
+            android:id="@+id/repassword"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="توضیحات"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

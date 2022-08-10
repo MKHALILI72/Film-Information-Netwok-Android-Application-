@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/nav_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    tools:openDrawer="right"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/tabbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_bar"
+                android:background="@drawable/titlebarbackground"
+                android:textDirection="rtl"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffff"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:text="درباره کلاکت"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    />
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/backicon"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_margin="10dp"
+                    android:tint="#fff"
+                    />
+
+
+            </android.support.constraint.ConstraintLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:text="يکي از تفريحات سالم و سازنده تماشای فیلم های با محتوا و مناسب با سلیقه فردی اشـاا اسـت به همـی دلیـل مااطـب بـه
+ابزاری نیاز دارد تا بتواند بوسیله آن آثاری را برگزيند كه از نظر او يا ديگران ارزش ديدن را داشته باشد
+راه كار ما يک اپلیکش موبايل است كه در آن كاربران بتواننـد لیسـت فـیلم هـای موجـود در اپلیکشـ را مشـاهده كـرده و بـا
+انتاــاآ آن ــا اطالعــات جــامعي از هريــک از فــیلم هــا )نــام فیلم وپوستروكارگردان وســال ســاخت وامتیاز كاربران وبــازيگران
+كلیدیوخالصه داستان وبودجه فیلم و ( بدست بیاورند "
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

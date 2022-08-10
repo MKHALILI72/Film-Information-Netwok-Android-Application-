@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:style="@style/CardView"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="عوامل"
+            android:textColor="@color/mainappcolor"
+            android:textSize="@dimen/filmtitletextsize"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="290dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/mainappcolor"></FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="کارگردان"
+            android:textColor="@color/mainappcolor"
+            android:textSize="@dimen/filmtitletextsize_l" />
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/mainappcolor"></FrameLayout>
+
+        <TextView
+            android:id="@+id/directorname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="محمد خلیلی"
+            android:textSize="@dimen/filmmaintextsize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="بازیگران کلیدی"
+            android:textColor="@color/mainappcolor"
+            android:textSize="@dimen/filmtitletextsize_l" />
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/mainappcolor"></FrameLayout>
+
+        <TextView
+            android:id="@+id/keyactors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="محمد خلیلی \nn"
+            android:textAlignment="center"
+            android:textSize="@dimen/filmmaintextsize"
+            android:lineSpacingExtra="4dp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

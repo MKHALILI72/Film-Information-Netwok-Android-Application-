@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#ffff"
+        >
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:src="@drawable/topbackground"
+            />
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/dunkirk"
+            android:elevation="10dp"
+
+            android:layout_marginEnd="30dp" />
+        <TextView
+            android:id="@+id/filmname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دانکرک"
+            android:textSize="35dp"
+            android:textColor="#ffff"
+            app:layout_constraintRight_toLeftOf="@+id/poster"
+            app:layout_constraintTop_toTopOf="@+id/poster"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/addfavorite"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_bookmark"
+            android:tint="#ffff"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="15dp"
+            />
+        <ImageView
+            android:id="@+id/backicon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/backicon"
+            android:tint="#ffff"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            />
+        <TextView
+            android:id="@+id/yearandcountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="محصول ایران - 2017"
+            app:layout_constraintTop_toBottomOf="@+id/filmname"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            app:layout_constraintRight_toRightOf="@+id/filmname"
+
+            />
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="جنگی"
+            android:textSize="15dp"
+            android:textColor="#ffff"
+            app:layout_constraintRight_toLeftOf="@id/poster"
+            app:layout_constraintTop_toBottomOf="@+id/yearandcountry"
+            app:layout_constraintBottom_toBottomOf="@id/background"
+            />
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/scoreview"
+            app:layout_constraintRight_toLeftOf="@+id/poster"
+            app:layout_constraintBottom_toBottomOf="@+id/poster"
+            android:layout_marginBottom="29dp"
+            android:layout_marginRight="20dp"
+            android:textDirection="rtl"
+            android:layout_marginEnd="20dp">
+            <TextView
+            android:id="@+id/sumuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="از 100 نفر رای"
+            android:textSize="10dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+
+            tools:layout_editor_absoluteY="0dp" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/scoreshape"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/star"
+            app:layout_constraintRight_toLeftOf="@+id/poster"
+            app:layout_constraintBottom_toBottomOf="@+id/poster"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="23dp"
+
+            android:layout_marginEnd="10dp">
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintVertical_bias="0.6"
+                app:layout_constraintHorizontal_bias="0.48"
+                />
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
